@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcoadee</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="icon" href="/img/icono.png" type="image/x-icon">
+</head>
+<body id="homePage">
+   <!--Barra-->
+   <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
+    <div class="container-fluid">
+      <img class="navbar-brand" href="#homePage">
+      <img src="./img/logo3.png" alt="Bootstrap" width="230" height="50"> <a>
+      <button class="navbar-toggler" type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html" target="_blank">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Biblioteca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="true">
+                Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="submit">
+            <img src="./img/mano donar1.svg" alt="Icono"  class="icon-img me-2"> 
+            Donaciones</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <!--Entrada-->
+
+    <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="top" style="background-image: url('/img/Herosection.png'); background-size: cover; background-position: center;">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-lg-6 py-vh-6 position-relative pt-5 d-flex justify-content-center align-items-center flex-column" data-aos="fade-right" id="entrada">
+            <img src="/img/semilogo.png" alt="Descripción de la imagen" class="img-fluid w-100">
+            <p class="fs-5 text- mt-3">Somos una fundación sin ánimo de lucro, inspirados en las personas con ADEE y la fundación ALPE (por su gran trabajo), que identificó la falta de conocimiento e información en Colombia para esta población, frente a sus necesidades.</p>
+            <div><form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="submit">  
+                Conoce mas ...</button>
+            </form>
+          </div>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-between align-items-center flex-wrap" id="imageEntrada">
+            <div class="mb-3" data-aos="fade-right">
+              <img src="/img/kids1.png" alt="Foto 1" class="img-fluid">
+            </div>
+            <div class="mb-3" data-aos="fade-left">
+              <img src="/img/kids2.png" alt="Foto 2" class="img-fluid">
+            </div>
+            <div class="mb-3" data-aos="fade-right">
+              <img src="/img/team.png" alt="Foto 3" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+    
+    
+
+
+
+<!--Mision/vision-->
+
+    <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="top"; background-size: cover; background-position: center;">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-lg-6 py-vh-6 position-relative pt-5 d-flex justify-content-center align-items-center flex-column" data-aos="fade-right" id="entrada">
+            <h1>Mision</h1>
+            <p class="fs-5 text- mt-3">Acompañar e informar a todas las personas con ADEE y sus familias en todos los procesos que se requieran para mejorar la calidad de vida de esta población en Colombia.</p>
+            <div>
+          </div>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-between align-items-center">
+            <div class="mb-3" data-aos="fade-left">
+              <img src="/img/kids3.png" alt="Foto 2" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+<!--Form-->
+
+  <div class="container-fluid" data-aos="fade" data-aos-delay="200" id="contact">
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <h3>Contactanos</h3>
+        <ul class="contact-info " style="padding: 0;">
+          <p>Llena tus datos aqui</p>
+        </ul>
+      </div>
+      <div class="col-lg-8 col-md-push-1 animate-box">
+        <div class="row">
+          <form onsubmit="enviarDatos(event)" action="">
+
+            <div class="col-md-12 mt-2">
+              <div class="form-group shadow mt-3">
+                <input type="text" required id="Name" class="form-control" placeholder="Name">
+              </div>
+              <div class="col-md-12 mt-2">
+                <div class="form-group shadow mt-3">
+                  <input type="text" required id="Phone" class="form-control" placeholder="Phone">
+                </div>
+              </div>
+              <div class="col-md-12 mt-2">
+                <div class="form-group shadow mt-3">
+                  <input type="text" required id="Email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="col-md-12 mt-2">
+                <div class="form-group shadow mt-3">
+                  <textarea name="" required id="Message" class="form-control" id="" cols="30" rows="7"
+                    placeholder="Message" style="font-family: 'Inter';"></textarea>
+                </div>
+              </div>
+              <div class="col-md-12 mt-2">
+                <div class="form-group">
+                  <input type="submit" onclick="" value="Send Message" class="btn btn-primary">
+                </div>
+              </div>
+              <div class="col-md-12 d-flex align-items-center mt-3 " class="mt-3">
+                <div class="form-group mb-1">
+                  <h3 class="m-0" id="response_msg"></h3>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+              
+
+
+
+
+            <!-- Footer -->
+  <div class="container-fluid" id="footer">
+    <div class="row p-5 text-white">   
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <h3 class="d-flex align-items-center ms-2 mb-3">
+          <img src="/img/logo completa empresa.png" alt="Imagen" class="me-2" width="282" height="141">
+      </h3>
+      <div class="mb-5 ms-2">
+        <p>Somos una fundacion sin 
+          <br> animo de lucro, inspirados en 
+          <br> las personas con ADEE</p>
+      </div>
+      <div class="mb-4 ms-2">
+        <div class="d-flex align-items-center ms-2">
+            <!-- Ícono de Facebook -->
+            <a href="URL_de_tu_pagina_de_Facebook" class="text-white me-3" target="_blank">
+                <img src="/img/Facebook.png" alt="Facebook" width="30" height="30">
+            </a>
+            <!-- Ícono de Gmail -->
+            <a href="URL_de_tu_pagina_de_Gmail" class="text-white me-3" target="_blank">
+                <img src="/img/gmail.png" alt="Gmail" width="30" height="30">
+            </a>
+            <!-- Ícono de Instagram -->
+            <a href="https://www.instagram.com/fundacioncolombianaadee/" class="text-white me-3" target="_blank">
+                <img src="/img/instagram.png" alt="Instagram" width="30" height="30">
+            </a>
+            <!-- Ícono de WhatsApp -->
+            <a href="URL_de_tu_pagina_de_WhatsApp" class="text-white me-3" target="_blank">
+                <img src="/img/whatsapp.png" alt="WhatsApp" width="30" height="30">
+            </a>
+            <!-- Agrega más íconos de redes sociales según sea necesario -->
+        </div>
+    </div>
+      <div class="mb-3 ms-2">
+        <p>&copy; 2023 Fundacion Colombiana ADEE. Todos los derechos reservados.</p>
+      </div>
+  </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-5 ms-5">Enlaces</p>
+        <div class="mb-4 ms-5">
+          <a class="text-white" href="#homePage" >Home</a>
+        </div>
+        <div class="mb-4 ms-5">
+          <a class="text-white" href="#homePage" >Mision y vision</a>
+        </div>
+        <div class="mb-4 ms-5">
+          <a class="text-white" href="#homePage" >Tienda</a>
+        </div>
+        <div class="mb-4 ms-5">
+          <a class="text-white" href="#homePage" >Biblioteca</a>
+        </div>
+        <div class="mb-4 ms-5">
+          <a class="text-white" href="#homePage" >Blog</a>
+        </div>
+        <div class="mb-4 ms-5">
+          <a class="text-white" href="#homePage" >Contacto</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p>Galeria</p>
+        <div class="mb-4">
+          <a href="mailto:correo@ejemplo.com">contacto@funcoadee.org</a>
+        </div>
+        <div class="mb-4">
+          <a href="tel:+573144709947">+57 314-470-9947</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p>Contacto</p>
+        <div class="mb-4">
+          <a class="text-white" href="mailto:correo@ejemplo.com">contacto@funcoadee.org</a>
+        </div>
+        <div class="mb-4">
+          <a class="text-white" href="tel:+573144709947">+57 314-470-9947</a>
+      </div>
+    </div>
+  </div>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/interaction/menu.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,157 @@
+/* Estilo para la imagen de la mano */
+
+
+.icon-img {
+    transition: filter 0.3s ease; /* Transición suave para el cambio de color de la imagen */
+}
+
+.btn-outline-success {
+    border-radius: 50px;
+}
+
+/* Cambia el color de la imagen a blanco al pasar el mouse sobre el botón */
+.btn-outline-success:hover .icon-img {
+    filter: brightness(0) invert(1); /* Cambia la imagen a blanco */
+}
+
+/* Estilos para la barra de navegación */
+#navbarSupportedContent {
+    padding-left: 200px;
+    padding-right: px;
+}
+
+.logo-img, .img-fluid {
+    transition: transform 0.3s ease;
+    /* Transición suave al aplicar el efecto hover */
+  }
+
+  /* Efecto de escala al pasar el mouse sobre la imagen del logo */
+  .logo-img:hover, .img-fluid:hover {
+    transform: scale(1.1); /* Cambia el tamaño de la imagen al hacer hover */
+  }
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Estilos para los enlaces de navegación */
+.navbar-nav .nav-item .nav-link {
+    color: initial; /* Restablecer el color a su valor inicial */
+    position: relative;
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+    font-size: 22px; /* Tamaño de letra deseado */
+}
+
+/* Estilos para los enlaces de navegación activos */
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+    color: green; /* Cambia el color del texto a verde */
+}
+
+/* Estilo para el subrayado */
+.navbar-nav .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: green; /* Color del subrayado */
+    transition: width 0.3s ease; /* Transición suave para el subrayado */
+}
+
+/* Subrayado que aparece al pasar el mouse sobre el enlace */
+.navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%; /* Anchura completa del subrayado */
+}
+
+.navbar.scrolled {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(255,255,255,.9);
+}
+
+.navbar {
+    transition: all .5s ease-in-out 0s;
+}
+.navbar.scrolled {
+transition: all .5s ease-in-out 0s;
+}
+
+
+.shadow-sm {
+    box-shadow: none !important; /* No mostrar la sombra inicialmente */
+}
+
+.scrolled  {
+    box-shadow: 0 1rem 1.5rem rgba(21,21,21,.25) !important; /* Mostrar la sombra al hacer scroll */
+}
+
+/* Estilos para la sombra */
+.scrolled {
+  box-shadow: 0 1rem 1.5rem rgba(21,21,21,.25);
+}
+
+
+#imageEntrada {
+    width: ;
+}
+
+
+#footer {
+ background-image: url('/img/Footer.png');
+ font-size: 22px; /* Tamaño de letra deseado */
+
+}
+
+
+#top {
+    padding-bottom: 66px;
+    padding-top: 66px;
+    height: auto!important;
+    border-bottom: 8px solid green;
+    border-top: 8px solid green;
+}
+
+#aboutus {
+    padding-top: 66px;
+}
+
+#entrada {
+    display: flex;
+    justify-content: flex-start!important;
+}
+
+.img-fluid{
+ max-width: 80%!important;
+}
+
+.adee {
+    transition: transform 0.3s ease;
+}
+
+.adee:hover {
+    transform: scale(1.1); /* Cambia el tamaño de la imagen al hacer hover */
+}
+
+#redes {
+    transition: transform 0.3s ease;
+}
+
+#redes:hover {
+    transform: scale(1.1); /* Cambia el tamaño de la imagen al hacer hover */
+}
+
+
+@media (min-width: 992px)
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}

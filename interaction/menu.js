@@ -27,19 +27,26 @@
 //     });
 // });
 
-window.addEventListener('scroll', function() {
-    const navbar = document.querySelector('.navbar');
-    const scrolled = window.scrollY > 0;
+let scrollpos = window.scrollY;
+const navbar = document.querySelector("#navbar");
+const header_height = navbar.offsetHeight;
 
-    console.log('Scroll Y:', window.scrollY); // Verifica la posición de scroll
-    console.log('Scrolled:', scrolled); // Verifica si scrolled es true o false
+const add_class_on_scroll = () => navbar.classList.add("scrolled", "shadow-sm");
+const remove_class_on_scroll = () => navbar.classList.remove("scrolled", "shadow-sm");
 
-    if (scrolled) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
+window.addEventListener('scroll', function () {
+  scrollpos = window.scrollY;
+
+  if (scrollpos >= header_height) {
+    add_class_on_scroll();
+  } else {
+    remove_class_on_scroll();
+  }
+
+  console.log(scrollpos);
 });
+
+
 
 
 

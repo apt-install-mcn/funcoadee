@@ -16,8 +16,7 @@
 
 /* Estilos para la barra de navegación */
 #navbarSupportedContent {
-  padding-left: 10%;
-  /* padding-right: px; */ /* Revisa esta línea, falta el valor */
+  padding-left: 15%;
 }
 
 /* Estilos para el logotipo */
@@ -228,7 +227,7 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   position: absolute;
-  top: 100%;
+  top: 106%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -243,12 +242,17 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   position: absolute;
-  top: -80%;
+  top: -86%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   
 }
+
+.letter1, .letter2, .letter3, .letter4 {
+  font-weight: 600!important; /* Puedes ajustar el valor según tu preferencia */
+}
+
 
 /* Efecto hover */
 .position-relative:hover .h3-overlay1 {
@@ -273,6 +277,10 @@
   align-content: space-between;    
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#noticias {
+  border-radius: 20px;
 }
 
 .check-icon {
@@ -301,4 +309,13 @@
 
 .check-icon {
   font-size: 18px; /* Tamaño del icono */
+}
+
+
+#galeria {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 400px;
 }

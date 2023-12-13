@@ -4,7 +4,7 @@
 
 .item {
     width: auto;
-    height: 300px;
+    height: 280px;
 
 }
 
@@ -15,6 +15,7 @@
 #tiendalogo {
     width: auto;
     height: 80px;
+    margin-left: 10px;
 }
 
 
@@ -24,9 +25,9 @@
 }
 
 .custom-btn {
-    background-color: #343a40; /* Color de fondo */
+    background-color: #1d6429; /* Color de fondo */
     color: #ffffff; /* Color del texto */
-    border: 2px solid #343a40; /* Borde */
+    border: 2px solid #1d6429; /* Borde */
     border-radius: 25px; /* Radio de borde */
     padding: 10px 20px; /* Relleno */
     font-size: 18px; /* Tamaño de fuente */
@@ -35,8 +36,8 @@
 
   .custom-btn:hover {
     background-color: #ffffff; /* Color de fondo al pasar el cursor */
-    color: #343a40; /* Color del texto al pasar el cursor */
-    border-color: #000000; 
+    color: #1d6429; /* Color del texto al pasar el cursor */
+    border-color: #1d6429; 
   }
 
   .item-info {
@@ -50,8 +51,8 @@
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    color: #000; /* Cambia el color del texto a negro */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    color: #1d6429; /* Cambia el color del texto a negro */
+    box-shadow: 0 0 10px rgba(29, 100, 41, 0.3); /* Sombra suave */
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; /* Transición suave */
   }
 
@@ -62,4 +63,8 @@
     transition-delay: 0.1s; /* Añadir un pequeño retraso */
   }
 
-  
+ #lapicero {
+  height: 200px;
+  position: relative; /* Asegúrate de que tenga una posición relativa o absoluta */
+  top: -50px; /* Puedes ajustar este valor según lo necesites */
+}

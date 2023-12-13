@@ -1,0 +1,28 @@
+#tienda {
+    background-color: #f0f4f2;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+
+.item {
+    width: auto;
+    height: 280px;
+}
+
+#quieneSomos {
+    color: #266F43!important;
+}
+
+#parrafoQuienesSomos {
+    font-size: 40px;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+#tiendalogo {
+    width: auto;
+    height: 80px;
+    margin-left: 10px;
+}
+
+
+

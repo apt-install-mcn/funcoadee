@@ -49,8 +49,6 @@ window.addEventListener('scroll', function () {
 
 
 
-
-
  $(document).ready(function(){
      // Inicia el carrusel
      $('#carouselExampleIndicators').carousel();
@@ -60,5 +58,21 @@ window.addEventListener('scroll', function () {
        interval: 3000 // Cambia cada 3 segundos (3000 milisegundos)
      });
    });
+
+
+
+// Capturar el clic en cada imagen de la galería
+const galleryImages = document.querySelectorAll('.gallery-img');
+
+  $(document).ready(function() {
+    // Inicializa Fancybox
+    $('[data-fancybox="gallery"]').fancybox({
+      loop: true, // Permite hacer bucle al pasar por las imágenes
+    });
+  });
+
+
+
+
 
   

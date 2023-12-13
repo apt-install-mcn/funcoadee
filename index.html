@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
     <link rel="icon" href="/img/icono.png" type="image/x-icon">
 
 </head>
@@ -33,19 +34,16 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">¿Quiénes somos?</a>
+                <a class="nav-link" href="quieneSomos.html">¿Quiénes somos?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tienda.html" target="_blank">Tienda</a>
+                <a class="nav-link" href="tienda.html" >Tienda</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Biblioteca</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contacto</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -172,7 +170,7 @@
                   <div class="position-relative">
                     <img src="/img/enanismo.png" alt="" class="adee">
                     <div class="position-absolute top-50 start-50 translate-middle">
-                      <span class="letter2">E</span>
+                      <span class="letter4">E</span>
                     </div>
                     <div class="h3-overlay1">
                       <h3 class="mt-3" style="color: #266F43;">Enanismo</h3> 
@@ -193,7 +191,7 @@
               </h1>
               <div class="row justify-content-center">
                 <div class="col-4" data-aos="fade-right" id="team1">
-                  <img src="/img/natalia.png" alt="Natalia Gamba" class="volunteer-img">
+                  <img src="/img/natalia (2).jpg" alt="Natalia Gamba" class="volunteer-img">
                   <div class="team">
                   <h6 class="">Directora cientifica</h6>
                   <p>Natalia Gamba</p>
@@ -231,7 +229,7 @@
                 </div>
               </div>
                 <div class="col-4" data-aos="fade-left" id="team1">
-                  <img src="/img/juliana.png" alt="Juliana Saneida" class="volunteer-img">
+                  <img src="/img/juliana.jpg" alt="Juliana Saneida" class="volunteer-img">
                   <div class="team">
                   <h6 class="">Directora comite</h6>
                   <p >Juliana Saneida</p>
@@ -415,7 +413,7 @@
 
   <div class="container-fluid" id="contact">
     <div class="row d-flex justify-content-center" >
-      <div class="col-12 col-md-12 col-xs-12 col-lg-9">
+      <div class="col-12 col-md-12 col-xs-12 col-lg-9" data-aos="fade-left">
         <h3>Contáctanos</h3>
         <ul class="contact-info" style="padding: 0;">
           <p>Llena tus datos aquí</p>
@@ -462,7 +460,7 @@
             </div>            
             </div>
             <div class="col-lg-6 mt-2">
-              <label for="YesNo" class="form-label">¿Cuenta con prueba?</label>
+              <label for="YesNo" class="form-label"  data-aos="fade-left">¿Cuenta con prueba?</label>
               <div class="form-group shadow " data-aos="fade-left" data-aos-delay="200">
                 <select class="form-control" required id="YesNo">
                   <option value="" disabled selected>Seleccione una opción</option>
@@ -472,7 +470,7 @@
               </div>
             </div>
             <div class="col-lg-6 mt-2">
-              <label for="YesNo" class="form-label">Fecha de nacimiento</label>
+              <label for="YesNo" class="form-label"  data-aos="fade-left">Fecha de nacimiento</label>
               <div class="form-group shadow " data-aos="fade-left" data-aos-delay="200">
                 <input type="date" required id="Birthdate" class="form-control" placeholder="Fecha de nacimiento">
               </div>
@@ -545,57 +543,60 @@
           <div class="col-xs-3 col-md-3 col-lg-3">
             <p class="h5 mb-5 ms-5">Enlaces</p>
             <div class="mb-4 ms-5">
-              <a class="text-white" href="#homePage" >Home</a>
+              <a class="text-white" id="subrayado" href="#homePage" >Home</a>
             </div>
             <div class="mb-4 ms-5">
-              <a class="text-white" href="#homePage" >Mision y vision</a>
+              <a class="text-white" id="subrayado" href="#homePage" >¿Quiénes somos?</a>
             </div>
             <div class="mb-4 ms-5">
-              <a class="text-white" href="#homePage" >Tienda</a>
+              <a class="text-white" id="subrayado" href="#homePage" >Tienda</a>
             </div>
             <div class="mb-4 ms-5">
-              <a class="text-white" href="#homePage" >Biblioteca</a>
+              <a class="text-white" id="subrayado" href="#homePage" >Biblioteca</a>
             </div>
             <div class="mb-4 ms-5">
-              <a class="text-white" href="#homePage" >Blog</a>
-            </div>
-            <div class="mb-4 ms-5">
-              <a class="text-white" href="#homePage" >Contacto</a>
+              <a class="text-white" id="subrayado" href="#homePage" >Blog</a>
             </div>
           </div>
+          
           <div class="col-xs-12 col-md-6 col-lg-6" id="galeria">
-            <p>Galeria</p>
+            <p>Galería</p>
             <div class="row">
-                <div class="mb-4 col-md-6">
-                    <img src="/img/galeria1.png" alt="">
-                </div>
-                <div class="mb-4 col-md-6">
-                    <img src="/img/galeria2.png" alt="">
-                </div>
-                <div class="mb-4 col-md-6">
-                    <img src="/img/galeria3.png" alt="">
-                </div>
-
-                <div class="mb-4 col-md-6">
-                    <img src="/img/galeria1.png" alt="">
-                </div>
-                <div class="mb-4 col-md-6">
-                    <img src="/img/galeria2.png" alt="">
-                </div>
-                <div class="mb-4 col-md-6">
-                    <img src="/img/galeria3.png" alt="">
-                </div>
+              <a data-fancybox="gallery" href="/img/album1.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/galeria1.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album2.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/galeria2.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album3.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/galeria3.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album4.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/galeria2.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album5.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/galeria2.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album6.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/galeria2.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album7.jpg" class="mb-4 col-md-6 gallery-item">
+              </a>
+              <a data-fancybox="gallery" href="/img/album8.jpg" class="mb-4 col-md-6 gallery-item">
+              </a>
+              <a data-fancybox="gallery" href="/img/album9.jpg" class="mb-4 col-md-6 gallery-item">
+              </a>
             </div>
-        </div>
+          </div>
         
           <div class="col-xs-12 col-md-6 col-lg-3">
-            <p class="mb-5">Contacto</p>
+            <p class="mb-5">Con apoyo de:</p>
             <div class="mb-4">
-              <a class="text-white" href="mailto:correo@ejemplo.com">contacto@funcoadee.org</a>
+              <a class="text-white" id="subrayado" href="https://www.fundacionalpe.org/es" target="_blank">Fundacion Alpe</a>
             </div>
             <div class="mb-4">
-              <a class="text-white" href="tel:+573144709947">+57 314-470-9947</a>
-          </div>
+              <a class="text-white" id="subrayado" href="tel:+573144709947">+57 314-470-9947</a>
+          </div>     
         </div>
       </div>
         <script src="/js/bootstrap.min.js"></script>
@@ -605,6 +606,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script>
     AOS.init({
       duration: 1000, // values from 0 to 3000, with step 50ms

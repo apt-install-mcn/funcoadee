@@ -18,11 +18,79 @@
     text-align: center; /* Centra el texto horizontalmente */
 }
 
-#tiendalogo {
+#quieneSomos {
     width: auto;
     height: 80px;
     margin-left: 10px;
 }
 
 
+#quienesImg {
+    margin: 20px;
+    width: 250px;
+    transition: transform 0.3s ease; /* Transición suave para el cambio de escala */
+}
 
+#quienesImg:hover {
+    transform: scale(1.1); /* Cambia el tamaño al 110% al hacer hover */
+}
+
+#objetivos {
+    color: #266F43!important;
+}
+
+#symbol {
+    width: 48px;
+    height: auto;
+    margin: 10px;
+}
+
+#principios {
+    background-color: #AFD1BD;
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#symbol1 {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    background-color: #AFD1BD;
+}
+
+#symbol2 {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: #AFD1BD;
+}
+
+#symbol3 {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #AFD1BD;
+}
+#symbol4 {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #AFD1BD;
+}
+#symbol5 {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #AFD1BD;
+}

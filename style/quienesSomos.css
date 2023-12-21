@@ -27,7 +27,6 @@
 
 #quienesImg {
     margin: 20px;
-    width: 250px;
     transition: transform 0.3s ease; /* Transición suave para el cambio de escala */
 }
 

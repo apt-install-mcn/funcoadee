@@ -9,6 +9,13 @@
     height: 280px;
 }
 
+#quienesTop {
+    height: auto!important;
+    /* border-bottom: 8px solid green;
+    border-top: 8px solid green; */
+    background-color: #f0f4f2;
+  }
+
 #quieneSomos {
     color: #266F43!important;
 }
@@ -38,6 +45,10 @@
     color: #266F43!important;
 }
 
+#general {
+    color: #266F43;
+}
+
 #symbol {
     width: 48px;
     height: auto;
@@ -51,12 +62,14 @@
     padding-right: 50px;
 }
 
+
+
 #symbol1 {
     width: 80px;
     height: auto;
     margin: 10px;
-    padding-top: 41px;
-    padding-bottom: 41px;
+    padding-top: 160px;
+    padding-bottom: 160px;
     background-color: #AFD1BD;
 }
 
@@ -92,4 +105,9 @@
     padding-top: 2px;
     padding-bottom: 2px;
     background-color: #AFD1BD;
+}
+
+.text-muted {
+    font-size: 32px;
+    margin-top: 20px;
 }

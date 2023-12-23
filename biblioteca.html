@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/quienesSomos.css">
+    <link rel="stylesheet" href="/style/biblioteca.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="icon" href="/img/icono.png" type="image/x-icon">
+
+</head>
+<body id="homePage"> 
+    
+  <!--Barra-->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" data-aos="fade-down" id="navbar">
+    <div class="container-fluid">
+      <img class="navbar-brand" href="#homePage">
+      <img src="./img/logo3.png" alt="Bootstrap" width="230" height="50" class="logo-img"> <a>
+      <button class="navbar-toggler" type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quieneSomos.html">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="biblioteca.html">Biblioteca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="submit">
+            <img src="./img/mano donar1.svg" alt="Icono"  class="icon-img me-2"> 
+            Donaciones</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+      <!--Biblioteca-->
+
+      <div class="w-100 overflow-hidden bg-gray-100" id="quienesTop">
+        <div class="container">
+          <div class="row">
+            <div class="container py-0" id="tienda" data-aos="fade-down">
+              <div class="px-4 py-3 text-center  d-flex justify-content-center align-items-center ">
+                <h1 class="display-5 fw-bold text-body-emphasis d-inline-block" id="quieneSomos">Biblioteca</h1>
+                <img src="/img/tiendaLogo.png" alt="" class="d-inline-block ml-3" id="quieneSomos">
+              </div>
+              <p class="fs-3 text-center mt-2" data-aos="fade-left">En esta seccion encontraras los acronismo de nuestra fundacion </p>
+              <div class="text-center">
+              </div>
+              <div class="d-flex justify-content-center" >
+                <img src="/img/bibliotecaImg.png " id="quienesImg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Acondroplastia-->
+
+
+      <div class="w-100 overflow-hidden bg-gray-100">
+        <div class="container">
+          <div class="container py-0" data-aos="fade-down">
+            <div class="px-4 py-3 text-center d-flex justify-content-center align-items-center">
+              <h1 class="display-5 fw-bold text-body-emphasis d-inline-block" id="objetivos">¿Qué es la acondroplasia?</h1>
+            </div>
+            <div>
+              <p>La acondroplasia, es una condición caracterizada por el acortamiento de los huesos y extremidades. El artículo de la 
+                Fundación Alpe destaca los beneficios de un entorno escolar que fomente la diversidad y la participación activa de todos 
+                los estudiantes, haciendo énfasis en la adaptación de metodologías y recursos educativos para asegurar un aprendizaje equitativo 
+                para aquellos afectados por esta condición genética. (Fundación Alpe, 2023)</p>
+                <div class="d-flex justify-content-center"> 
+                  <button class="btn btn-success">Leer más...</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+      <!--Causas-->
+      <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="MisionVision" style="background-size: cover; background-position: center;">
+        <div class="container position-relative">
+            <div class="row">
+                <!-- Columna con el texto -->
+                <div class="col-lg-6 py-vh-6 position-relative pt-5" data-aos="fade-left">
+                    <h1 style="color: #266F43;">Causas de la acondroplasia</h1>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center pt-2" data-aos="fade-left">
+                            <div class="ms-3"></div>
+                        </div>
+                        <p class="fs-5 text- mt-3" data-aos="fade-left">
+                            Esta condición, caracterizada por el acortamiento de los huesos y extremidades, se debe a una modificación genética autosómica dominante. La mutación, presente en el cromosoma 4 en el locus 4p16.3, afecta la expresión del gen FGFR3, dando lugar a una proteína mutante con actividad aumentada de señalización MAPK. Esta alteración interrumpe la proliferación de los condrocitos y su diferenciación en células óseas, afectando el desarrollo de los huesos largos. La acondroplasia, en el 80% de los casos, resulta de una mutación espontánea en las células progenitoras, y la transferencia de la mutación a la descendencia sigue patrones específicos de herencia autosómica dominante, con una probabilidad del 50% en ciertos casos. (Fundación Alpe, 2023)
+                        </p>
+                        <div class="d-flex align-items-center" data-aos="fade-left"> <!-- Agregamos margen superior -->
+                            <div class="ms-3"></div>
+                        </div>
+                        <div class="d-flex justify-content-center"> 
+                          <button class="btn btn-success">Leer más...</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna con la imagen -->
+                <div class="col-lg-6 py-vh-6 position-relative pt-5 d-flex justify-content-center align-items-center flex-column" data-aos="fade-right" id="entrada">
+                    <div class="mt-5">
+                        <img src="/img/Biblioteca1.png" alt="Foto 2" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Izquierda-->
+    <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="MisionVision" style="background-size: cover; background-position: center;">
+      <div class="container position-relative">
+          <div class="row">
+              <!-- Columna con la imagen -->
+              <div class="col-lg-6 py-vh-6 position-relative pt-5 d-flex justify-content-center align-items-center flex-column" data-aos="fade-left" id="entrada">
+                  <div class="mt-5">
+                      <img src="/img/Biblioteca2.png" alt="Foto 2" class="img-fluid">
+                  </div>
+              </div>
+              <!-- Columna con el texto -->
+              <div class="col-lg-6 py-vh-6 position-relative pt-5" data-aos="fade-right">
+                  <h1 style="color: #266F43;">¿Cómo se diagnostica la acondroplasia?</h1>
+                  <div class="d-flex flex-column">
+                      <div class="d-flex align-items-center pt-2" data-aos="fade-right">
+                          <div class="ms-3"></div>
+                      </div>
+                      <p class="fs-5 text- mt-3" data-aos="fade-right">
+                        Aunque los rasgos clínicos y radiológicos son distintivos, es esencial confirmar el diagnóstico mediante pruebas genéticas para
+                        diferenciarla de otras displasias óseas, planificar intervenciones preventivas o terapéuticas, y brindar asesoramiento genético.
+                        Las pruebas genéticas permiten el diagnóstico prenatal a las 11-13 semanas de gestación en familias de alto riesgo, y se describen
+                        métodos como ecografías, tomografías tridimensionales, y análisis de ADN fetal libre de células para confirmar el diagnóstico pre
+                        y postnatal. Además, se mencionan condiciones que pueden confundirse con la acondroplasia, como la hypocondroplasia, la displasia
+                        tanatafórica y la pseudoacondroplasia. (Fundación Alpe, 2023)
+                      </p>
+                      <div class="d-flex align-items-center" data-aos="fade-right">
+                          <div class="ms-3"></div>
+                      </div>
+                      <div class="d-flex justify-content-center"> 
+                        <button class="btn btn-success">Leer más...</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+        <!--Causas-->
+        <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="MisionVision" style="background-size: cover; background-position: center;">
+          <div class="container position-relative">
+              <div class="row">
+                  <!-- Columna con el texto -->
+                  <div class="col-lg-6 py-vh-6 position-relative pt-5" data-aos="fade-left">
+                      <h1 style="color: #266F43;">Manejo clínico de la acondroplasia </h1>
+                      <div class="d-flex flex-column">
+                          <div class="d-flex align-items-center pt-2" data-aos="fade-left">
+                              <div class="ms-3"></div>
+                          </div>
+                          <p class="fs-5 text- mt-3" data-aos="fade-left">
+                            El manejo de la acondroplasia se centra en la prevención y tratamiento de complicaciones, con un enfoque 
+                            a largo plazo que incluye visitas regulares a especialistas. Para lactantes, se destaca la monitorización 
+                            del crecimiento y la evaluación de complicaciones neurológicas y de otorrinolaringología. En la infancia, 
+                            se enfatiza la atención a problemas del habla y la ortopedia, mientras que en la edad adulta se aborda la 
+                            estenosis espinal lumbar y los embarazos de alto riesgo. Se destaca la importancia de la fisioterapia y el 
+                            control del peso en todas las etapas, con la colaboración de diversos profesionales para mejorar la calidad de vida. (Fundación Alpe, 2023)
+                          </p>
+                          <div class="d-flex align-items-center" data-aos="fade-left"> <!-- Agregamos margen superior -->
+                              <div class="ms-3"></div>
+                          </div>
+                          <div class="d-flex justify-content-center"> 
+                            <button class="btn btn-success">Leer más...</button>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Columna con la imagen -->
+                  <div class="col-lg-6 py-vh-6 position-relative pt-5 d-flex justify-content-center align-items-center flex-column" data-aos="fade-right" id="entrada">
+                      <div class="mt-5">
+                          <img src="/img/Biblioteca3.png" alt="Foto 2" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+      <!--Izquierda-->
+    <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="MisionVision" style="background-size: cover; background-position: center;">
+      <div class="container position-relative">
+          <div class="row">
+              <!-- Columna con la imagen -->
+              <div class="col-lg-6 py-vh-6 position-relative pt-5 d-flex justify-content-center align-items-center flex-column" data-aos="fade-left" id="entrada">
+                  <div class="mt-5">
+                      <img src="/img/Biblioteca4.png" alt="Foto 2" class="img-fluid">
+                  </div>
+              </div>
+              <!-- Columna con el texto -->
+              <div class="col-lg-6 py-vh-6 position-relative pt-5" data-aos="fade-right">
+                  <h1 style="color: #266F43;">Vida con acondroplasia </h1>
+                  <div class="d-flex flex-column">
+                      <div class="d-flex align-items-center pt-2" data-aos="fade-right">
+                          <div class="ms-3"></div>
+                      </div>
+                      <p class="fs-5 text- mt-3" data-aos="fade-right">
+                        La acondroplasia afecta la vida del paciente en distintas etapas. En la infancia, los padres enfrentan 
+                        ansiedades y los niños experimentan un desarrollo físico atípico. La atención a contracturas y la adaptación 
+                        en la escuela son esenciales. En la edad adulta, surgen limitaciones físicas y preocupaciones sobre la calidad de vida. 
+                        La baja estatura conlleva estigma social, pero las personas con acondroplasia buscan llevar vidas normales.(Fundación Alpe, 2023)
+                      </p>
+                      <div class="d-flex align-items-center" data-aos="fade-right">
+                          <div class="ms-3"></div>
+                      </div>
+                      <div class="d-flex justify-content-center"> 
+                        <button class="btn btn-success">Leer más...</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+        <!--Causas-->
+        <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="MisionVision" style="background-size: cover; background-position: center;">
+          <div class="container position-relative">
+              <div class="row">
+                  <!-- Columna con el texto -->
+                  <div class="col-lg-6 py-vh-6 position-relative pt-5" data-aos="fade-left">
+                      <h1 style="color: #266F43;">Tratamientos de la acondroplasia </h1>
+                      <div class="d-flex flex-column">
+                          <div class="d-flex align-items-center pt-2" data-aos="fade-left">
+                              <div class="ms-3"></div>
+                          </div>
+                          <p class="fs-5 text- mt-3" data-aos="fade-left">
+                            Esta condición, caracterizada por el acortamiento de los huesos y extremidades, 
+                            se debe a una modificación genética autosómica dominante. La mutación, presente en 
+                            el cromosoma 4 en el locus 4p16.3, afecta la expresión del gen FGFR3, dando lugar a
+                             una proteína mutante con actividad aumentada de señalización MAPK. Esta alteración 
+                             interrumpe la proliferación de los condrocitos y su diferenciación en células óseas, 
+                             afectando el desarrollo de los huesos largos. La acondroplasia, en el 80% de los casos, 
+                             resulta de una mutación espontánea en las células progenitoras, y la transferencia de la
+                              mutación a la descendencia sigue patrones específicos de herencia autosómica dominante, 
+                              con una probabilidad del 50% en ciertos casos. (Fundación Alpe, 2023)
+                          </p>
+                          <div class="d-flex align-items-center" data-aos="fade-left"> <!-- Agregamos margen superior -->
+                              <div class="ms-3"></div>
+                          </div>
+                          <div class="d-flex justify-content-center"> 
+                            <button class="btn btn-success">Leer más...</button>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Columna con la imagen -->
+                  <div class="col-lg-6 py-vh-6 position-relative pt-5 d-flex justify-content-center align-items-center flex-column" data-aos="fade-right" id="entrada">
+                      <div class="mt-5">
+                          <img src="/img/Biblioteca5.png" alt="Foto 2" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+            <!--Izquierda-->
+    <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="MisionVision" style="background-size: cover; background-position: center;">
+      <div class="container position-relative">
+          <div class="row">
+              <!-- Columna con la imagen -->
+              <div class="col-lg-6 py-vh-6 position-relative pt-5 d-flex justify-content-center align-items-center flex-column" data-aos="fade-left" id="entrada">
+                  <div class="mt-5">
+                      <img src="/img/Biblioteca6.png" alt="Foto 2" class="img-fluid">
+                  </div>
+              </div>
+              <!-- Columna con el texto -->
+              <div class="col-lg-6 py-vh-6 position-relative pt-5" data-aos="fade-right">
+                  <h1 style="color: #266F43;">Atención temprana</h1>
+                  <div class="d-flex flex-column">
+                      <div class="d-flex align-items-center pt-2" data-aos="fade-right">
+                          <div class="ms-3"></div>
+                      </div>
+                      <p class="fs-5 text- mt-3" data-aos="fade-right">
+                        La Atención Temprana aborda las necesidades de niños de 0 a 6 años con el objetivo de mejorar su desarrollo. 
+                        Es esencial para niños con acondroplasia, ya que contribuye a tratar deformidades ortopédicas y aborda dificultades sociales. 
+                        El tratamiento temprano es crucial para prevenir complicaciones futuras, y la Fundación ALPE proporciona orientación a través 
+                        de su Guía de Atención Temprana en Acondroplasia para padres y profesionales.
+                      </p>
+                      <div class="d-flex align-items-center" data-aos="fade-right">
+                          <div class="ms-3"></div>
+                      </div>
+                      <div class="d-flex justify-content-center"> 
+                        <button class="btn btn-success">Leer más...</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <!--Adee-->
+  <div class="w-100 overflow-hidden bg-gray-100">
+    <div class="container">
+      <div class="container py-0" data-aos="fade-down">
+        <div class="px-4 py-3 text-center d-flex justify-content-center align-items-center">
+          <h1 class="display-5 fw-bold text-body-emphasis d-inline-block" id="objetivos">¿Qué son las ADEE?</h1>
+        </div>
+        <div>
+          <p>Las ADEE (Alteraciones del Desarrollo y las Espectro autistas) son trastornos 
+            del neurodesarrollo que afectan las habilidades sociales, comunicativas y conductuales de las personas.
+             Estas diferencias en la neurodiversidad, suelen estar presentes desde la infancia y continúan a lo largo
+              de la vida, aunque se pueden mejorar con apoyo especializado y un ambiente inclusivo.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom d-flex justify-content-center">Adee</h2>
+  
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col" data-aos="fade-up" data-aos-delay="100">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Situación en Colombia:</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <p>En Colombia, existe una falta de conocimiento y comprensión sobre las ADEE, lo que afecta tanto a las personas con 
+                estas condiciones como a sus familias y cuidadores. En muchos casos, no se cuenta con la información y herramientas 
+                necesarias para brindarles a estas personas un apoyo adecuado y de calidad.</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" data-aos="fade-up" data-aos-delay="200">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">La importancia de conocer las necesidades :</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <p>Es fundamental que la sociedad en general conozca las necesidades de las personas con ADEE en Colombia. 
+                Esto permitir mejorar la inclusión social, educativa y laboral de estas personas, y generar un ambiente 
+                mas amigable y respetuoso para ellos y sus familias. Ademas, conocer las necesidades y características de 
+                estas personas puede ayudar a identificar oportunidades de desarrollo y crecimiento para la sociedad en general.</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" data-aos="fade-up" data-aos-delay="300">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Nuestra labor: </h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <p>
+                En la Fundación, nuestro objetivo es contribuir a mejorar la calidad de vida de las personas con ADEE en Colombia, 
+                as como a sus familias y cuidadores. Para lograrlo, trabajamos en la divulgación de información especializada y orientada 
+                a las necesidades de esta población, as como en la promoción de acciones y proyectos que permitan mejorar su inclusión y 
+                participación en la sociedad.
+                En conclusión, conocer las necesidades de las personas con ADEE en Colombia es fundamental para lograr una sociedad mas 
+                inclusiva y respetuosa. Desde la Fundación, seguiremos trabajando para promover esta comprensión y brindar apoyo especializado
+                 y efectivo a esta población.
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+    
+
+      
+
+  
+    
+  
+                                <!-- Footer -->
+      <div class="container-fluid" id="footer" data-aos="fade-up">
+        <div class="row p-5 text-white">   
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <h3 class="d-flex align-items-center ms-2 mb-3">
+              <img src="/img/logo completa empresa.png" alt="Imagen" class="me-2" width="282" height="141" id="redes">
+          </h3>
+          <div class="mb-5 ms-2">
+            <p>Somos una fundacion sin 
+              <br> animo de lucro, inspirados en 
+              <br> las personas con ADEE</p>
+          </div>
+          <div class="mb-4 ms-2">
+            <div class="d-flex align-items-center ms-2" >
+                <!-- Ícono de Facebook -->
+                  <!-- <a href="https://www.facebook.com/profile.php?id=100092708108917" class="text-white me-3" target="_blank">
+                      <img src="/img/Facebook.png" alt="Facebook" width="30" height="30" id="redes">
+                  </a> -->
+                <!-- Ícono de Gmail -->
+                <a href="mailto:contacto@funcoadee.org" class="text-white me-3" target="_blank" >
+                    <img src="/img/gmail.png" alt="Gmail" width="30" height="30" id="redes">
+                </a>
+                <!-- Ícono de Instagram -->
+                <a href="https://www.instagram.com/fundacioncolombianaadee/" class="text-white me-3" target="_blank">
+                    <img src="/img/instagram.png" alt="Instagram" width="30" height="30" id="redes">
+                </a>
+                <!-- Ícono de WhatsApp -->
+                <a href="tel:+573144709947" class="text-white me-3" target="_blank">
+                    <img src="/img/whatsapp.png" alt="WhatsApp" width="30" height="30" id="redes">
+                </a>
+                <!-- Agrega más íconos de redes sociales según sea necesario -->
+            </div>
+        </div>
+          <div class="mb-3 ms-2">
+            <p>&copy; 2023 Fundacion Colombiana ADEE. Todos los derechos reservados.</p>
+          </div>
+      </div>
+          <div class="col-xs-3 col-md-3 col-lg-3">
+            <p class="h5 mb-5 ms-5">Enlaces</p>
+            <div class="mb-4 ms-5">
+              <a class="text-white" id="subrayado" href="#homePage" >Home</a>
+            </div>
+            <div class="mb-4 ms-5">
+              <a class="text-white" id="subrayado" href="#homePage" >¿Quiénes somos?</a>
+            </div>
+            <div class="mb-4 ms-5">
+              <a class="text-white" id="subrayado" href="#homePage" >Tienda</a>
+            </div>
+            <div class="mb-4 ms-5">
+              <a class="text-white" id="subrayado" href="#homePage" >Biblioteca</a>
+            </div>
+            <div class="mb-4 ms-5">
+              <a class="text-white" id="subrayado" href="#homePage" >Blog</a>
+            </div>
+          </div>
+          
+          <div class="col-xs-12 col-md-6 col-lg-6" id="galeria">
+            <p>Galería</p>
+            <div class="row">
+              <a data-fancybox="gallery" href="/img/album1.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/galeria2.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album2.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/footer2.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album3.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/footer3.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album4.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/footer4.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album5.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/footer5.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album6.jpg" class="mb-4 col-md-6 gallery-item">
+                <img src="/img/footer6.png" alt="" class="gallery-img">
+              </a>
+              <a data-fancybox="gallery" href="/img/album7.jpg" class="mb-4 col-md-6 gallery-item">
+              </a>
+              <a data-fancybox="gallery" href="/img/album8.jpg" class="mb-4 col-md-6 gallery-item">
+              </a>
+              <a data-fancybox="gallery" href="/img/album9.jpg" class="mb-4 col-md-6 gallery-item">
+              </a>
+            </div>
+          </div>
+        
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="mb-5">Con apoyo de:</p>
+            <div class="mb-4">
+              <a class="text-white" id="subrayado" href="https://www.fundacionalpe.org/es" target="_blank">Fundacion Alpe</a>
+            </div>
+        </div>
+      </div>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/interaction/menu.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+    AOS.init({
+      duration: 1000, // values from 0 to 3000, with step 50ms
+    });
+</script>
+  </body>
+</html>

@@ -58,7 +58,7 @@
 #principios {
     background-color: #AFD1BD;
     margin: 20px;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 50px;
 }
 
@@ -77,8 +77,8 @@
     width: 80px;
     height: auto;
     margin: 10px;
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 122px;
+    padding-bottom: 122px;
     background-color: #AFD1BD;
 }
 
@@ -86,24 +86,24 @@
     width: 80px;
     height: auto;
     margin: 10px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 95px;
+    padding-bottom: 95px;
     background-color: #AFD1BD;
 }
 #symbol4 {
     width: 80px;
     height: auto;
     margin: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 138px;
+    padding-bottom: 138px;
     background-color: #AFD1BD;
 }
 #symbol5 {
     width: 80px;
     height: auto;
     margin: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 38px;
+    padding-bottom: 38px;
     background-color: #AFD1BD;
 }
 

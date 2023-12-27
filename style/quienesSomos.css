@@ -65,7 +65,7 @@
 
 
 #symbol1 {
-    width: 80px;
+    width: 100px;
     height: auto;
     margin: 10px;
     padding-top: 160px;
@@ -74,7 +74,7 @@
 }
 
 #symbol2 {
-    width: 80px;
+    width: 100px;
     height: auto;
     margin: 10px;
     padding-top: 122px;
@@ -83,7 +83,7 @@
 }
 
 #symbol3 {
-    width: 80px;
+    width: 100px;
     height: auto;
     margin: 10px;
     padding-top: 95px;
@@ -91,7 +91,7 @@
     background-color: #AFD1BD;
 }
 #symbol4 {
-    width: 80px;
+    width: 100px;
     height: auto;
     margin: 10px;
     padding-top: 138px;
@@ -99,7 +99,7 @@
     background-color: #AFD1BD;
 }
 #symbol5 {
-    width: 80px;
+    width: 100px;
     height: auto;
     margin: 10px;
     padding-top: 38px;
